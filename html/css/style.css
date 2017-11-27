@@ -1,0 +1,174 @@
+/*
+Theme Name: Hazel
+Theme URI: http://demo.select-themes.com/hazel
+Description: Hazel Theme
+Tags: portfolio, clean, retina, photography, art, video, ajax, agency, blog, shop, business, elegant, hipster, multi-purpose, fullscreen
+Author: Select Themes
+Author URI: http://demo.select-themes.com
+Version: 3.4
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+
+*/
+
+.modal-content{
+	top: 100px;
+}
+.modal-body input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+}
+.btn-default{
+	    background: #E39400;
+	    color: #fff;
+}
+.center{text-align: center;}
+body{font-size: 14px!important}
+h2.site-description {
+       display: none;
+}
+.max-width-1024{max-width:1024px;margin:auto;}
+.justy{text-align: justify!important}
+.can_deu .wpb_gallery_slides .gallery_holder ul.v3 li{height:155px}
+.flexslider, .portfolio_slider{margin: 0 0 30px!important}
+.padding-30{padding-bottom:30px}
+/* Modal qc */
+.modal_qc {
+    background: #f1c40f!important;
+}
+.wapdownload h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.wapdownload * {
+    color: #002f1e;
+    font-family: 'Roboto';
+    line-height: 30px;
+}
+.wapdownload h6 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.borderwapdown {
+    width: 150px;
+    height: 2px;
+    opacity: 0.4;
+    margin: 10px 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #002f1e;
+}
+.wapdownload ul li {
+    list-style: none;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-position: 0px 9px;
+}
+.btn-download {
+    cursor: pointer;
+    background-color: #002f1e;
+    color: #fff;
+    width: 110px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-position: 70px 10px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.btn_dk1 {
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    background: #db1616!important;
+    border: none!important;
+    font-family: arial;
+    font-size: 16px!important;
+    z-index: 999999;
+    border-radius: 10px 0 0 0;
+}
+.footer_top .widget_nav_menu ul li{padding: 0 0 5px!important;}
+.footer_top h5{font-family: inherit!important;}
+#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea{    background-color: #38C72F!important;
+color: #fff!important;}
+.page-branch-title.text-center {
+    background: url(../images/horizontal_divider-frikarte.png) no-repeat center bottom;
+}
+.text-center {
+    text-align: center;
+}
+.page-branch-title .title1 {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    font-size: 2em;
+    color: #d8c664;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.radius img{border-radius:18px}
+.ls-home-about .item .title2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+.ls-home-about .item .desc {
+    font-size: 36px;
+    font-weight: 700;
+    color: #d8c664;
+    border-bottom: 1px solid rgba(255,255,255,0.22);
+    padding: 35px 0 20px;
+    margin-bottom: 40px;
+    background: url(../images/cityscape.png) no-repeat bottom 17px right;
+}
+.ls-home-about .item .desc span {
+    font-size: 18px;
+}
+.ls-home-about .item.item2 .desc {
+    background-image: url(../images/office-block.png);
+}
+.ls-home-about .item.item3 .desc {
+    background-image: url(../images/drawing.png);
+}
+.ls-home-about .item.item4 .desc {
+    background-image: url(../images/drawing-house-plan.png);
+}
+.ls-home-about .item.item5 .desc {
+    background-image: url(../images/house.png);
+}
+.ls-home-about .item.item6 .desc {
+    background-image: url(../images/building.png);
+}
+.q_tabs .tabs-nav li{
+    padding: 5px 5px 0 5px!important;
+    background: #01291b!important;
+    margin-right: 10px;
+    border-radius: 10px 10px 0 0;
+    min-width: 130px;
+    text-align: center;
+    margin-right:10px!important;
+}
+.q_tabs .tabs-nav li a{padding:initial!important}
+.center .wpb_wrapper{text-align:center;}
+.q_tabs.horizontal .tabs-container{padding-top:0!important;position: relative;
+    top: -5px;background:#bbe3bf;}
+.denn{background:#002f1e;}
+.modal-body input{color:black!important;}
+@media only screen and (max-width: 768px){
+.page-branch-title .title1{font-size: 1.4em;}
+}
+@media screen and (max-width: 480px) and (orientation: portrait){
+.ls-home-about .item {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 600px){
+.q_tabs.horizontal .tab-content {
+    padding:initial!important;
+}
+}
+.title.breadcrumbs_title .breadcrumb{display: none!important;}
+.blog_holder article .post_more{margin: 0!important;}
+.qbutton.small{padding: 0 10px!important;}

@@ -1,0 +1,210 @@
+
+
+header.fixed.scrolled .header_bottom, header.fixed_hiding.scrolled .header_bottom{
+box-shadow:none;
+}
+
+.blog_holder article.format-quote .post_text .post_title p, .blog_holder article.format-link .post_text .post_title p {
+font-size: 18px;
+color: #9d9d9d;
+}
+
+.blog_holder article.format-quote .post_text .quote_author {
+font-size: 18px;
+}
+
+li.narrow .second .inner ul {
+    padding: 10px 0;
+}
+
+.drop_down .second .inner ul li a, .drop_down .second .inner ul li h5 { margin: 0 28px; }
+
+.drop_down .wide .second ul { padding: 28px 0; }
+
+.drop_down .wide .second>.inner>ul>li.sub>ul>li>a, .drop_down .wide .second ul li a { padding: 10px 9px; }
+
+.drop_down .narrow .second .inner ul li { width: 250px; }
+
+.q_counter_holder p.counter_text {
+   line-height: 4.4em;
+}
+
+.title.breadcrumbs_title .breadcrumb a, .title.breadcrumbs_title .breadcrumb span {
+text-transform: capitalize;
+}
+
+.q_team .q_team_title_holder .q_team_name {
+letter-spacing: 5px;
+}
+
+.price_table_inner ul li.table_title .title_content {
+font-size: 16px;
+letter-spacing: 6px;
+}
+
+.price_in_table .price, .price_in_table .value {
+color: #c2b5ae;
+font-family: oswald, sans-serif;
+font-weight: 300 !important;
+}
+
+.price_table_inner ul li.pricing_table_content li, .price_in_table .mark {
+font-family: 'Playfair Display', serif;
+font-size: 13px;
+color: #919191;
+}
+
+.q_price_table.active .active_text span {
+top: 18px;
+font-weight: 400;
+font-family: 'oswald', sans-serif;
+letter-spacing: 1px;
+line-height: 1.2em;
+}
+
+.qode_carousels .caroufredsel-direction-nav .caroufredsel-navigation-item span {
+color: #2b3541;
+}
+
+.projects_holder article span.text_holder, .projects_masonry_holder .text_holder{
+background: none !important;
+padding: 15px;
+width: 100%;
+}
+
+.projects_holder article span.text_holder span.text_outer{
+background-color: rgba(244, 244, 244, 0.85);
+}
+
+.latest_post_holder.boxes .q_font_elegant_holder.circle,
+.blog_holder.masonry article .q_font_elegant_holder.circle{
+background-color: #2a343f;
+}
+
+.latest_post_inner .post_infos,
+.blog_holder.masonry article .post_info{
+font-style: italic;
+}
+
+.blog_holder.masonry article.format-quote .post_text .post_title p, 
+.blog_holder.masonry article.format-link .post_text .post_title p,
+.blog_holder.masonry article.format-quote .post_text .quote_author{
+font-style: italic;
+font-size: 18px;
+}
+
+.mejs-container{
+background-color: #2a343f;
+}
+.mejs-container .mejs-controls .mejs-time span{
+color: #ffffff;
+}
+
+.mejs-controls .mejs-play button{
+background-image: url("/wp-content/themes/hazel/css/img/audio/play_white.png");
+}
+
+.mejs-controls .mejs-pause button{
+background-image: url("/wp-content/themes/hazel/css/img/audio/pause_white.png");
+}
+
+.mejs-controls .mejs-mute button{
+background-image: url("/wp-content/themes/hazel/css/img/audio/sound_white.png");
+}
+
+.mejs-controls .mejs-unmute button{
+background-image: url("/wp-content/themes/hazel/css/img/audio/mute_white.png");
+}
+
+.mejs-controls .mejs-stop button {
+background-image: url(/wp-content/themes/hazel/css/img/audio/stop_white.png);
+}
+
+.single-post .blog_holder article,
+.single-post div.comment_form{
+border: 0px;
+}
+
+.woocommerce-page ul.products li.product a.product-category, 
+.woocommerce ul.products li.product a.product-category{
+border:0px;
+}
+
+.woocommerce-page ul.products li.product a.product-category, 
+.woocommerce ul.products li.product a.product-category{
+padding: 0px 15px 20px 15px;
+}
+
+.woocommerce ul.products li.product .top-product-section{
+margin-bottom: 0px;
+}
+
+.woocommerce .product .onsale.out-of-stock-button{
+font-size: 10px;
+}
+
+
+.container_inner .projects_holder.v4.hover_text article .hover_feature_holder_title .portfolio_title,
+.full_width_inner .projects_holder.v6.hover_text article .hover_feature_holder_title .portfolio_title{
+margin: 0px;
+}
+
+.container_inner .projects_holder.v4.hover_text article .feature_holder .feature_holder_icons,
+.full_width_inner .projects_holder.v6.hover_text article .feature_holder .feature_holder_icons{
+ margin: 5px 0 0;
+}
+
+.footer_bottom {
+font-size: 13px;
+}
+
+body {
+font-size: 13px;
+line-height: 22px;
+}
+
+header.fixed.scrolled .header_bottom, header.fixed_hiding.scrolled .header_bottom{
+box-shadow:none;
+}
+
+.blog_holder article.format-quote .post_text .post_title p, .blog_holder article.format-link .post_text .post_title p {
+font-size: 18px;
+color: #9d9d9d;
+}
+
+.blog_holder article.format-quote .post_text .quote_author {
+font-size: 18px;
+}
+
+.footer_top h5 {
+font-family: "Calibri", sans-serif;
+}
+
+nav.main_menu > ul > li > a {
+    font-family: Calibri, Candara, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 480px){
+.container_inner, .boxed div.section .section_inner, div.grid_section .section_inner, div.column1 .grid_section .section_inner, div.column2 .grid_section .section_inner, .full_width .parallax_content, .steps_holder_inner, .carousel-inner .slider_content_outer, nav.content_menu {
+    width: 90%;
+}
+}
+
+.content .container .container_inner.default_template_holder{
+padding-top:40px;
+}
+.border-vang .wpcf7-form p{margin-bottom: 1px;}
+.nutdk{background: yellow!important;border:none!important;color:red!important}
+.blog_holder article .post_text h5{font-size: 15px;margin: inherit;}
+.blog_holder.masonry article .post_text .post_text_inner{padding:inherit;}
+.blog_holder.masonry article .post_text.left{padding: 0;}
+.breadcrumb{background-color: transparent;}
+aside.sidebar .widget ul{    padding: 0 5px 5px 5px;}
+.blog_holder article{    margin: 0 0 20px!important;padding: 0 0 20px 0!important;}
+.post_content_holder p{text-align: justify;padding-bottom: 10px;}
+.widget .tagcloud{padding:0 5px;}
+.blog_single .wp-caption{max-width:100%;}
+#tintuc_ .latest_post_holder.boxes>ul>li .latest_post{border-bottom:none!important;}

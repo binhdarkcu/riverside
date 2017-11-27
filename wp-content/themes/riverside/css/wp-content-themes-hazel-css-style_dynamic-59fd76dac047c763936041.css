@@ -1,0 +1,772 @@
+
+
+
+	h1 a:hover,
+	h2 a:hover,
+	h3 a:hover,
+	h4 a:hover,
+	h5 a:hover,
+	h6 a:hover,
+	.blog_holder article.sticky .post_text h3 a,
+	.blog_holder.masonry article.sticky .post_text h5 a,
+	.blog_holder.masonry_full_width article.sticky .post_text h5 a,
+	.blog_holder article .post_info,
+	.blog_holder article .post_info a,
+	.blog_holder article.format-quote .post_text:hover .post_info .social_share_dropdown span,
+	.blog_holder article.format-link .post_text:hover .post_info .social_share_dropdown span,
+	.latest_post_inner .post_comments:hover i,
+	.blog_holder article .post_description a:hover,
+	.blog_holder article .post_description .post_comments:hover,
+	.blog_like a:hover i,
+	.blog_like a.liked i,
+	.blog_like a:hover span,
+	.blog_holder article.format-quote .post_text i.qoute_mark,
+	.blog_holder article.format-link .post_text i.link_mark,
+	.single_tags  a,
+	.widget .tagcloud a,
+	.comment_holder .comment .text .replay,
+	.comment_holder .comment .text .comment-reply-link,
+	.comment_holder .comment .text .replay:hover,
+	.comment_holder .comment .text .comment-reply-link:hover,
+	div.comment_form form p.logged-in-as a,
+	.blog_holder.masonry .post_author a,
+	.blog_holder.masonry_full_width .post_author a,
+	.blog_holder.masonry article .post_info a:hover,
+	.blog_holder.masonry_full_width article .post_info a:hover,
+	.q_masonry_blog article .q_masonry_blog_post_info a:hover,
+	.latest_post_holder .post_info_section.date_hour_holder:hover,
+	.latest_post_holder.boxes .latest_post_author_holder a,
+	.latest_post_inner .post_infos a:hover,
+	.latest_post_holder .post_info_section:hover .latest_post_info_icon,
+	header:not(.with_hover_bg_color) nav.main_menu > ul > li:hover > a,
+	nav.main_menu>ul>li.active > a,
+	.drop_down .second .inner > ul > li > a:hover,
+	.drop_down .second .inner ul li.sub ul li a:hover,
+	nav.mobile_menu ul li a:hover,
+	nav.mobile_menu ul li.active > a,
+	.side_menu_button > a:hover,
+	.mobile_menu_button span:hover,
+	.vertical_menu ul li a:hover,
+	.vertical_menu_toggle .second .inner ul li a:hover,
+	.header_top #lang_sel ul li ul li a:hover,
+	.header_top #lang_sel_click ul li ul li a:hover,
+	.header_top #lang_sel_list ul li a.lang_sel_sel,
+	.header_top #lang_sel_list ul li a:hover,
+	aside .widget #lang_sel a.lang_sel_sel:hover,
+	aside .widget #lang_sel_click a.lang_sel_sel:hover,
+	aside .widget #lang_sel ul ul a:hover,
+	aside .widget #lang_sel_click ul ul a:hover,
+	aside .widget #lang_sel_list li a.lang_sel_sel,
+	aside .widget #lang_sel_list li a:hover,
+	.portfolio_detail .info .info_section_title,
+	.portfolio_detail .info .info_section_title a,
+	.portfolio_detail .social_share_icon,
+	.portfolio_detail .social_share_holder:hover .social_share_title,
+	.portfolio_navigation .portfolio_prev a:hover,
+	.portfolio_navigation .portfolio_next a:hover,
+	.portfolio_navigation .portfolio_button a:hover,
+	.projects_holder article .portfolio_description .project_category,
+	.projects_holder.hover_text article .project_category,
+	.portfolio_slider li.item .project_category,
+	.q_accordion_holder.accordion .ui-accordion-header:hover,
+	.q_accordion_holder.accordion.with_icon .ui-accordion-header i,
+	.q_accordion_holder.boxed .ui-state-active .tab-title,
+	blockquote.with_quote_icon i,
+	.q_dropcap,
+	.testimonials .testimonial_text_inner p.testimonial_author span.author_company,
+	.testimonial_content_inner .testimonial_author .company_position,
+	.q_tabs .tabs-nav li.active a:hover,
+	.q_tabs .tabs-nav li a:hover,
+	.q_tabs.horizontal .tabs-nav li.active a,
+	.price_in_table .value,
+	.price_in_table .price,
+	.q_font_elegant_holder.q_icon_shortcode:hover,
+	.q_font_awsome_icon_holder.q_icon_shortcode:hover,
+	.q_icon_with_title.normal_icon .icon_holder:hover .icon_text_icon,
+	.box_holder_icon_inner.normal_icon .icon_holder_inner:hover .icon_text_icon,
+	.q_progress_bars_icons_inner.square .bar.active i,
+	.q_progress_bars_icons_inner.circle .bar.active i,
+	.q_progress_bars_icons_inner.normal .bar.active i,
+	.q_progress_bars_icons_inner .bar.active i.fa-circle,
+	.q_progress_bars_icons_inner.square .bar.active .q_font_elegant_icon,
+	.q_progress_bars_icons_inner.circle .bar.active .q_font_elegant_icon,
+	.q_progress_bars_icons_inner.normal .bar.active .q_font_elegant_icon,
+	.q_list.number ul>li:before,
+	.social_share_list_holder ul li i:hover,
+	.service_table_inner li.service_table_title_holder .service_table_icon,
+	.qbutton:not(.white):hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	#submit_comment:hover,
+	.drop_down .wide .second ul li .qbutton:hover,
+	.drop_down .wide .second ul li ul li .qbutton:hover,
+	nav.content_menu ul li.active:hover i,
+	nav.content_menu ul li:hover i,
+	nav.content_menu ul li.active:hover a,
+	nav.content_menu ul li:hover a,
+	.more_facts_button:hover,
+	aside.sidebar .widget a:hover,
+	.header-widget.widget_nav_menu ul.menu li a:hover,
+	.breadcrumb a:hover,
+	.title.breadcrumbs_title .breadcrumb a:hover,
+	.title.breadcrumbs_title .breadcrumb span.current,
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
+    .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a,
+    .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover{
+	    color: #c2b5ae;
+	}
+
+	.header_top #lang_sel > ul > li > a:hover,
+	.header_top #lang_sel_click > ul > li> a:hover,
+	.filter_holder ul li.active span,
+	.filter_holder ul li:hover span,
+	.q_social_icon_holder.normal_social:hover .simple_social,
+	.q_steps_holder .circle_small:hover span,
+	.q_steps_holder .circle_small:hover .step_title,
+    .social_share_holder:hover > a{
+		color: #c2b5ae !important;
+	}
+
+	.blog_holder article .post_text .post_info .post_author,
+	.blog_holder article .post_text .post_info .time,
+	.blog_holder article .post_text .post_info .post_category,
+	.blog_holder article .post_text .post_info .post_comments,
+	.blog_holder.masonry article .post_text .post_info .post_comments a,
+	.blog_holder article .post_text .post_info .blog_like,
+	.blog_holder article .post_text .post_info .blog_share,
+	.drop_down .second,
+    .drop_down .narrow .second .inner ul li ul,
+	.header_top #lang_sel ul ul ,
+	.header_top #lang_sel_click ul ul,
+	.portfolio_slides .hover_feature_holder_inner .qbutton:hover,
+	.q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark,
+	.q_accordion_holder.accordion.boxed .ui-accordion-header.ui-state-active,
+	.testimonials_holder.light .flex-direction-nav a:hover,
+	.q_font_awsome_icon_square:hover,
+	.q_font_awsome_icon_circle:hover,
+	.q_font_elegant_holder.circle:hover,
+	.q_font_elegant_holder.square:hover,
+	.q_font_elegant_holder.circle:hover,
+	.q_font_awsome_icon_circle:hover,
+	.q_progress_bars_icons_inner.circle .bar .bar_noactive,
+	.q_progress_bars_icons_inner.square .bar .bar_noactive,
+	.page_share,
+	.q_steps_holder .circle_small_wrapper,
+	.animated_icon_inner span.animated_icon_back .animated_icon,
+	.qbutton,
+	.load_more a,
+	.blog_load_more_button a,
+	#submit_comment,
+    #submit_comment:hover,
+	.drop_down .wide .second ul li .qbutton,
+	.drop_down .wide .second ul li ul li .qbutton,
+	.qbutton.white:hover,
+	.qbutton.solid_color,
+	.qbutton:hover,
+	.header-widget.widget_nav_menu ul ul,
+    #back_to_top:hover > span,
+    input.wpcf7-form-control.wpcf7-submit,
+    input.wpcf7-form-control.wpcf7-submit[disabled],
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]),
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover{
+		border-color: #c2b5ae;
+	}
+
+	.q_icon_with_title .icon_holder:hover .icon_holder_inner,
+	.q_icon_with_title .icon_holder:hover .fa-stack,
+	.q_icon_with_title .icon_holder:hover .q_font_elegant_holder,
+	.box_holder_icon_inner.circle .icon_holder_inner:hover,
+	.box_holder_icon_inner.square .icon_holder_inner:hover,
+	.box_holder_icon_inner.square .icon_holder_inner:hover .fa-stack,
+	.box_holder_icon_inner.circle .icon_holder_inner:hover .fa-stack,
+	.box_holder_icon_inner .icon_holder_inner:hover .q_font_elegant_holder.circle,
+	.box_holder_icon_inner .icon_holder_inner:hover .q_font_elegant_holder.square,
+	.q_circles_holder .q_circle_inner:hover .q_circle_inner2,
+	.q_circles_holder .q_circle_inner:hover {
+		border-color: #c2b5ae !important;
+	}
+
+	#respond textarea:focus,
+	#respond input[type='text']:focus,
+	.contact_form input[type='text']:focus,
+	.contact_form  textarea:focus,
+	.q_masonry_blog article.format-link:hover,
+	.q_masonry_blog article.format-quote:hover,
+	.latest_post_holder .latest_post_date .post_publish_day,
+	.mejs-controls .mejs-time-rail .mejs-time-current,
+	.mejs-controls .mejs-time-rail .mejs-time-handle,
+	.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+	.popup_menu:hover .line,
+	.popup_menu:hover .line:after,
+	.popup_menu:hover .line:before,
+	.projects_holder .hover_icon_holder .hover_icon,
+	.portfolio_slider .hover_icon_holder .hover_icon,
+	.projects_holder .hover_icon_holder.portfolio_like,
+	.portfolio_slider .hover_icon_holder.portfolio_like,
+	.projects_masonry_holder .hover_icon_holder.portfolio_like,
+	.q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon,
+	.q_dropcap.circle,
+	.q_dropcap.square,
+	.gallery_holder ul li .gallery_hover i,
+	.testimonials_holder.light .flex-direction-nav a:hover,
+	.q_tabs.vertical .tabs-nav li.active a,
+	.q_tabs.boxed .tabs-nav li.active a,
+	.q_message,
+	.q_price_table.active .active_text,
+	.price_table_inner .price_button a:hover,
+	.active .price_table_inner .price_button a,
+	.q_list.circle ul>li:before,
+	.q_list.number.circle_number ul>li:before,
+	.vc_text_separator.full div,
+	.q_pie_graf_legend ul li .color_holder,
+	.q_line_graf_legend ul li .color_holder,
+	.q_team .q_team_text_inner .separator,
+	.circle_item .circle:hover,
+	.qode_call_to_action.container,
+	.animated_icon_inner span.animated_icon_back .animated_icon,
+	.q_progress_bar .progress_content,
+	.q_progress_bars_vertical .progress_content_outer .progress_content,
+	.qbutton,
+	.load_more a,
+	.blog_load_more_button a,
+	#submit_comment,
+	.drop_down .wide .second ul li .qbutton,
+	.drop_down .wide .second ul li ul li .qbutton,
+	.qbutton.white:hover,
+	.qbutton.solid_color,
+	#wp-calendar td#today,
+    #back_to_top:hover > span,
+    .latest_post_holder.boxes .q_font_elegant_holder.circle,
+    .blog_holder.masonry article .q_font_elegant_holder.circle,
+    input.wpcf7-form-control.wpcf7-submit,
+    div.wpcf7-response-output.wpcf7-mail-sent-ok,
+    div.wpcf7-response-output.wpcf7-validation-errors{
+		background-color: #c2b5ae;
+	}
+
+	.blog_holder article.format-link .post_text:hover .post_text_inner,
+	.blog_holder article.format-quote .post_text:hover .post_text_inner,
+	.q_icon_with_title .icon_holder:hover .fa-stack,
+	.q_icon_with_title.circle .icon_holder:hover .q_font_elegant_holder,
+	.q_icon_with_title.square .icon_holder:hover .q_font_elegant_holder,
+	.box_holder_icon_inner.square .icon_holder_inner:hover .fa-stack,
+	.box_holder_icon_inner.circle .icon_holder_inner:hover .fa-stack,
+	.box_holder_icon_inner .icon_holder_inner:hover .q_font_elegant_holder.circle,
+	.box_holder_icon_inner .icon_holder_inner:hover .q_font_elegant_holder.square,
+	.q_circles_holder .q_circle_inner:hover .q_circle_inner2 {
+		background-color: #c2b5ae !important;
+	}
+
+	
+
+
+
+    .ajax_loader .pulse,
+    .ajax_loader .double_pulse .double-bounce1, .ajax_loader .double_pulse .double-bounce2,
+    .ajax_loader .cube,
+    .ajax_loader .rotating_cubes .cube1, .ajax_loader .rotating_cubes .cube2,
+    .ajax_loader .stripes > div,
+    .ajax_loader .wave > div,
+    .ajax_loader .two_rotating_circles .dot1, .ajax_loader .two_rotating_circles .dot2,
+    .ajax_loader .five_rotating_circles .container1 > div, .ajax_loader .five_rotating_circles .container2 > div, .ajax_loader .five_rotating_circles .container3 > div{
+    background-color: #c2b5ae;
+    }
+    body{
+    	    	    	font-family: 'Roboto', sans-serif;
+    	    	 color: #212121;     	 font-size: 14px;     	font-weight: 400;    }
+    
+.header_bottom,
+.header_top {
+	background-color: rgba(0,0,0,0.00);
+}
+
+
+.header_bottom,
+.header_top {
+    border-bottom: 0;
+}
+
+.header_bottom {
+    box-shadow: none;
+}
+
+.header_top .right .inner > div:first-child,
+.header_top .right .inner > div,
+.header_top .left .inner > div:last-child,
+.header_top .left .inner > div {
+    border: none;
+}
+
+
+
+	.content .container .container_inner.default_template_holder,
+	body.page-template-blog-masonry-full-width-php .content .full_width {
+	padding-top:0px;
+	}
+header.fixed.scrolled .header_bottom,
+header.fixed_hiding.scrolled .header_bottom,
+header.fixed.scrolled .header_top{
+	background-color: rgba(0,47,30,1) !important;
+}
+
+
+
+
+header.sticky .header_bottom{
+	background-color: rgba(8,245,0,1) !important;
+}
+
+
+.header_top{
+	background-color: rgba(255,255,255,0.00);
+}
+
+
+
+.content{
+	margin-top: 0;
+}
+
+
+
+
+
+
+        @media only screen and (min-width: 1000px){
+            header.fixed_hiding .q_logo a,
+            header.fixed_hiding .q_logo{
+                max-height: 0px;
+            }
+        }
+
+    
+    .touch section.parallax_section_holder{
+		height: auto !important;
+		min-height: 300px;
+		background-position: center top !important;
+		background-attachment: scroll;
+        background-size: cover;
+	}
+
+
+    .drop_down .second .inner ul,
+    .drop_down .second .inner ul li ul,
+	.shopping_cart_dropdown,
+    li.narrow .second .inner ul {
+    background-color: #2b2b27;
+    background-color: rgba(43,43,39,0.3);
+    }
+
+
+	.drop_down .wide .second ul li{
+        border-color: #ffffff;
+    }
+
+nav.main_menu > ul > li > a{
+	 color: #fff; 		font-family: 'Roboto', sans-serif;
+		 font-size: 15px;     		 font-weight: 400; 	}
+
+nav.main_menu > ul > li:hover > a,
+header:not(.with_hover_bg_color) nav.main_menu > ul > li:hover > a{
+
+	color: #FFDF01;
+}
+
+    nav.main_menu>ul>li.active > a{
+	    color: #FFDF01;
+	}
+
+    nav.main_menu > ul > li:not(:first-child):before,
+    header.stick_with_left_right_menu.sticky nav.main_menu.right_side > ul > li:first-child:before{
+                 font-size: 15px;     }
+
+	nav.main_menu > ul > li:not(:first-child):before { content: none; }
+
+
+.drop_down .second .inner > ul > li > a,
+.drop_down .second .inner > ul > li > h3,
+.drop_down .wide .second .inner > ul > li > h3,
+.drop_down .wide .second .inner > ul > li > a,
+.drop_down .wide .second ul li ul li.menu-item-has-children > a,
+.drop_down .wide .second .inner ul li.sub ul li.menu-item-has-children > a,
+.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5 a,
+.drop_down .wide .second .inner > ul li .flexslider ul li  h5 a,
+.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5,
+.drop_down .wide .second .inner > ul li .flexslider ul li  h5{
+	 color: #ffffff; 		font-family: 'Roboto', sans-serif !important;
+		 font-size: 14px; 	 line-height: 20px; 		font-weight: 500; 	 text-transform: capitalize;  	 letter-spacing: 0px;  }
+	.drop_down .wide .second .inner>ul>li>a
+	{
+	 color: #292929; 			font-family: 'Roboto', sans-serif !important;
+		 font-size: 14px; 		 font-style: italic;  	font-weight: 600; 	 text-transform: capitalize;  	 letter-spacing: 0px;  	}
+.drop_down .wide .second .inner ul li.sub ul li a,
+.drop_down .wide .second ul li ul li a,
+.drop_down .second .inner ul li.sub ul li a,
+.drop_down .wide .second ul li ul li a,
+.drop_down .wide .second .inner ul li.sub .flexslider ul li .menu_recent_post,
+.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a,
+.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post,
+.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a{
+	 color: #5f686d;  		font-family: 'Roboto', sans-serif;
+		 font-size: 12px;  			 font-weight: 400;  	 text-transform: capitalize;  	}
+.drop_down .wide.icons .second i{
+     color: #5f686d;  }
+
+
+header.scrolled nav.main_menu > ul > li > a,
+header.light.scrolled nav.main_menu > ul > li > a,
+header.dark.scrolled nav.main_menu > ul > li > a{
+			font-family: 'Roboto', sans-serif !important;
+					}
+
+header.sticky nav.main_menu > ul > li > a,
+header.light.sticky nav.main_menu > ul > li > a,
+header.dark.sticky nav.main_menu > ul > li > a{
+			font-family: 'Roboto', sans-serif !important;
+					}
+
+
+
+nav.mobile_menu ul li a,
+nav.mobile_menu ul li h3{
+			font-family: 'Roboto', sans-serif;
+						}
+
+	nav.mobile_menu ul li,
+	nav.mobile_menu ul li,
+	nav.mobile_menu ul li ul li,
+    nav.mobile_menu ul li.open_sub > ul{
+		border-color: #ffffff;
+	}
+
+
+
+h1{
+						font-weight: 700;     letter-spacing: 3px;     text-transform: uppercase; }
+.title h1{
+			font-family: 'Roboto', sans-serif;
+		font-size: 35px; 				letter-spacing: 7px; }
+
+
+h2,
+h2 a{
+				font-family: 'Roboto', sans-serif;
+		font-size: 30px; 			font-weight: 400;     	text-transform: uppercase; }
+h3,h3 a{
+			font-family: 'Roboto', sans-serif;
+		font-size: 20px; 			font-weight: 400;     	text-transform: uppercase; }
+h4,
+h4 a{
+	color: #747680; 			font-family: 'Roboto', sans-serif;
+		font-size: 17px; 	line-height: 28px; 		font-weight: 400;     	}
+h5,
+h5 a{
+			font-family: 'Roboto', sans-serif;
+		font-size: 15px; 			font-weight: 300;     	}
+h6{
+			font-family: 'Roboto Condensed', sans-serif;
+		font-size: 16px; 		font-style: italic;  	font-weight: 400; 		text-transform: none; }
+
+    p{
+    	color: #212121;    	    		font-family: 'Roboto', sans-serif;
+    	    	font-size: 14px;    	line-height: 30px;    	    	font-weight: 400;    	    	    }
+    .breadcrumb a,
+    .filter_holder ul li span,
+    blockquote h5,
+    .q_social_icon_holder i.simple_social,
+    .header-widget.widget_nav_menu ul.menu li a,
+    .side_menu a,
+    .side_menu li,
+    .side_menu span,
+    .side_menu p,
+    .side_menu .widget.widget_rss li a.rsswidget,
+    .side_menu #wp-calendar caption,
+    .side_menu #wp-calendar th,
+    .side_menu #wp-calendar td,
+    aside .widget #lang_sel_list li a,
+    aside .widget #lang_sel li a,
+    aside .widget #lang_sel_click li a,
+    section.side_menu #lang_sel_list li a,
+    section.side_menu #lang_sel li a,
+    section.side_menu #lang_sel_click li a,
+    footer #lang_sel_list li a,
+    footer #lang_sel li a,
+    footer #lang_sel_click li a,
+    footer #lang_sel_list.lang_sel_list_horizontal a,
+    footer #lang_sel_list.lang_sel_list_vertical a,
+    .side_menu #lang_sel_list.lang_sel_list_horizontal a,
+    .side_menu #lang_sel_list.lang_sel_list_vertical a,
+    #lang_sel_footer a{
+    	color: #212121;    }
+
+    footer #lang_sel ul li a,
+    footer #lang_sel ul ul a,
+    footer #lang_sel_click ul li a,
+    footer #lang_sel_click ul ul a,
+    footer #lang_sel_click ul ul a span,
+    section.side_menu #lang_sel ul li a,
+    section.side_menu #lang_sel ul ul a,
+    section.side_menu #lang_sel ul ul a:visited,
+    section.side_menu #lang_sel_click > ul > li > a,
+    section.side_menu #lang_sel_click ul ul a,
+    section.side_menu #lang_sel_click ul ul a:visited{
+    	color: #212121 !important;    }
+    a, p a{
+	color: #c3251d;			}
+
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.q_icon_with_title .icon_with_title_link,
+.blog_holder article .post_description a:hover,
+.blog_holder.masonry article .post_info a:hover,
+.breadcrumb .current,
+.breadcrumb a:hover,
+.portfolio_social_holder a:hover,
+.latest_post_inner .post_infos a:hover{
+    color: #c3251d;}
+a:hover,p a:hover,
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,
+.q_tabs .tabs-nav li a:hover,
+.q_icon_with_title .icon_with_title_link:hover,
+.blog_holder article .post_description a,
+.blog_holder.masonry article .post_info a,
+.portfolio_social_holder a,
+.latest_post_inner .post_infos a{
+	color: #c3251d;	}
+
+		.blog_holder article .post_text h5.blockquote_text,
+		blockquote .blockquote_text {
+font-family: "Playfair Display", sans-serif;font-size: 18px;letter-spacing: 0px;font-weight: 400;text-transform: none;color: #c2b5ae;font-style: italic	}
+
+    blockquote i.pull-left {
+        color: #c2b5ae;
+    }
+	.subtitle{
+                font-family: 'Roboto', sans-serif;
+        	    		}
+
+    .title.breadcrumbs_title .breadcrumb a, .title.breadcrumbs_title .breadcrumb span{
+    color: #ffffff;         font-size: 16px;         font-style: italic;     font-weight: 400;     letter-spacing: 0px;     }
+
+    .title.breadcrumbs_title .breadcrumb a:hover, .title.breadcrumbs_title .breadcrumb span.current{
+        color: #c2b5ae;
+    }
+
+.q_message{
+	background-color: #415dba;
+}
+
+
+	.qbutton,
+	.qbutton.medium,
+	#submit_comment,
+	.load_more a,
+	.blog_load_more_button a,
+	.woocommerce .button,
+	.woocommerce-page .button,
+	.woocommerce-page input[type="submit"],
+	.woocommerce input[type="submit"],
+	.woocommerce ul.products li.product .added_to_cart,
+    input.wpcf7-form-control.wpcf7-submit,
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]){
+		color: #ffffff;font-size: 12px;font-weight: 400;font-family: "Oswald";letter-spacing: 5px;border-color: #bf1e2e;background-color: #bf1e2e;	}
+		.qbutton:hover,
+	.qbutton:not(.white):hover,
+	.qbutton.medium:hover,
+	#submit_comment:hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	.woocommerce .button:hover,
+	.woocommerce-page .button:hover,
+	.woocommerce #submit:hover,
+	.woocommerce ul.products li.product a.qbutton:hover,
+	.woocommerce-page ul.products li.product a.qbutton:hover,
+	.woocommerce ul.products li.product .added_to_cart:hover,
+    .post-password-form input[type='submit']:hover,
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover{
+	    color: #ffffff;background-color: #333;border-color: #333;	}
+		.qbutton.white {
+		border-color: #ffffff;color: #414141;background-color: #ffffff;	}
+		.qbutton.white:hover {
+		color: #ffffff;	}
+			.qbutton:before,
+		.load_more a:before,
+		.blog_load_more_button a:before,
+		#submit_comment:before,
+		.drop_down .wide .second ul li .qbutton:before,
+		.drop_down .wide .second ul li ul li .qbutton:before {
+			border-color: #bf1e2e;		}
+				.qbutton:hover:before,
+		.load_more a:hover:before,
+		.blog_load_more_button a:hover:before,
+		#submit_comment:hover:before,
+		.drop_down .wide .second ul li .qbutton:hover:before,
+		.drop_down .wide .second ul li ul li .qbutton:hover:before {
+			border-color: #333;		}
+				.qbutton.white:before {
+			border-color: #ffffff;		}
+		
+
+
+
+
+
+
+	.q_counter_holder span.counter{
+		color: #2a343f; 		font-weight: 300; 		font-size: 85px; 		font-family: 'Oswald', sans-serif; 		}
+	.q_counter_holder p.counter_text{
+		color: #c2b5ae; 		font-weight: 400; 		text-transform: uppercase; 		letter-spacing: 3px; 		font-size: 14px; line-height: 1.25em; 		
+	}
+	.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
+		background-color: #075237;
+	}
+	footer #lang_sel ul ul a,footer #lang_sel_click ul ul a,footer #lang_sel ul ul a:visited,footer #lang_sel_click ul ul a:visited{
+		background-color: #075237 !important;
+	}
+
+	.footer_top_holder { border-top: 0px solid #c2b5ae }
+
+	.footer_bottom_holder, #lang_sel_footer{
+		background-color:#002f1e;
+	}
+
+
+.footer_bottom, .footer_bottom span, .footer_bottom p, .footer_bottom p a, #lang_sel_footer ul li a,
+footer #lang_sel > ul > li > a,
+footer #lang_sel_click > ul > li > a,
+footer #lang_sel a.lang_sel_sel,
+footer #lang_sel_click a.lang_sel_sel,
+footer #lang_sel ul ul a,
+footer #lang_sel_click ul ul a,
+footer #lang_sel ul ul a:visited,
+footer #lang_sel_click ul ul a:visited,
+footer #lang_sel_list.lang_sel_list_horizontal a,
+footer #lang_sel_list.lang_sel_list_vertical a,
+#lang_sel_footer a{
+	
+	}
+
+	.footer_top h5 {
+		font-family: "Oswald", sans-serif;font-size: 17px;letter-spacing: 5px;font-weight: 400;text-transform: uppercase;color: #ffffff	}
+
+	.footer_bottom { height: 57px; }
+
+
+
+	.blog_holder.masonry article.format-quote .post_text .post_text_inner,
+	.blog_holder.masonry article.format-link .post_text .post_text_inner,
+	.blog_holder.masonry_full_width article.format-quote .post_text .post_text_inner,
+	.blog_holder.masonry_full_width article.format-link .post_text .post_text_inner {
+		background-color: #075237;
+	}
+	.blog_holder article.format-link .post_text:hover .post_text_inner,
+	.blog_holder article.format-quote .post_text:hover .post_text_inner{
+		border-color: #075237;
+	}
+
+
+
+
+
+
+    .blog_holder.masonry article,
+    .blog_holder.masonry article .post_text .post_text_inner,
+    .blog_holder.masonry_full_width article .post_text .post_text_inner,
+    .blog_holder.masonry article.format-quote .post_text .post_text_inner,
+    .blog_holder.masonry article.format-link .post_text .post_text_inner,
+    .blog_holder.masonry_full_width article.format-quote .post_text .post_text_inner,
+    .blog_holder.masonry_full_width article.format-link .post_text .post_text_inner{
+    background-color: #075237;
+    }
+
+
+
+    .side_menu_button > a,
+    .mobile_menu_button span{ color: #292929; }
+
+    .popup_menu .line,
+    .popup_menu .line:after, .popup_menu .line:before{
+        background-color: #292929;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .header_top .q_social_icon_holder i.simple_social,
+    .header_top .header-widget,
+    .header_top .header-widget.widget_nav_menu ul.menu>li>a,
+    .header_top .header-widget p,
+    .header_top .header-widget a,
+    .header_top .header-widget span {
+    font-family: "Roboto";    }
+
+
+.filter_holder ul li span {
+color: #fff;font-family: "Oswald";font-size: 14px;font-weight: 300;    }
+    .filter_holder ul li span:after{
+        color: #fff;
+    }
+    .filter_holder ul li.current span,
+    .filter_holder ul li:hover span{
+    color: #c2b5ae !important;    }
+
+
+    .projects_holder article .portfolio_description .project_category, .projects_holder.hover_text article .project_category, .portfolio_slider li.item .project_category {
+    font-family: "Roboto";    }
+    
+	.contact_section .separator.small { display: none; }
+
+
+	.projects_holder article span.text_holder,
+	.projects_masonry_holder .text_holder,
+	.portfolio_gallery a .gallery_text_holder,
+	.gallery_holder ul li .gallery_hover,
+	.portfolio_slides li:hover .image_pixel_hover {
+		background-color: rgba(242, 242, 242, 0.85)	}
+
+	.price_table_inner ul li.table_title { background-color: #2a343f }
+	.price_table_inner ul li.table_title .title_content { color: #ffffff }
+	.price_in_table .mark { color: #f5f5f5 }
+	.price_in_table .price, .price_in_table .value { color: #5d5d5d }
+	.q_price_table.active .active_text span { color: #ffffff }
+	.q_price_table.active .active_text, .active .price_table_inner .price_button a  { background-color: #c2b5ae }
+	.price_table_inner ul li.pricing_table_content li:nth-child(2n+1)  { background-color: #efefef }
+	.q_price_table .price_table_inner  { background-color: #f5f5f5 }
+	.price_table_inner .price_button a {
+	font-family: "Oswald", sans-serif;font-size: 18px;letter-spacing: 3px;font-weight: 700;text-transform: uppercase;color: #ffffff;background-color: #2a343f	}
+
+	aside.sidebar .widget h5 {
+	font-family: "Oswald", sans-serif;font-size: 15px;letter-spacing: 4px;font-weight: 400;text-transform: uppercase;color: #ffffff;background-color: #bf1e2e;border: 1px solid #bf1e2e	}
+
+	.comment_holder .comment { background-color: #f7f7f7;border: 1px solid #f7f7f7 }
+
+	.projects_holder.standard article .portfolio_description,
+	.projects_holder.standard_no_space article .portfolio_description {
+		background-color: #f6f6f6;border: 1px solid #f6f6f6	}
+	.projects_holder article .portfolio_description .project_category,
+	.projects_holder.hover_text article .project_category,
+	.portfolio_slider li.item .project_category,
+	.projects_masonry_holder .project_category {
+		color: #aeaeae	}
+	.projects_holder article .portfolio_description .portfolio_title a,
+	.projects_holder.hover_text article .hover_feature_holder_title .portfolio_title a,
+	.portfolio_slider .portfolio_title a,
+	.projects_masonry_holder .portfolio_title a {
+	color: #292929	}
+	.projects_holder .hover_icon_holder .hover_icon:hover,
+	.portfolio_slider .hover_icon_holder .hover_icon:hover,
+	.projects_masonry_holder .hover_icon_holder .hover_icon:hover,
+	.projects_holder .hover_icon_holder.portfolio_like:hover,
+	.portfolio_slider .hover_icon_holder.portfolio_like:hover,
+	.projects_masonry_holder .hover_icon_holder.portfolio_like:hover {
+	background-color: #2a343f	}
