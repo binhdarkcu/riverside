@@ -463,23 +463,7 @@ var easy_fancybox_auto = function() {
 </style>
 </noscript>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-(function(i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-ga('create', 'UA-67870809-3', 'auto');
-ga('send', 'pageview');
-</script>
+<script src="js/bootstrap.min.js"></script>
 
 </head>
 
@@ -498,23 +482,6 @@ ga('send', 'pageview');
 </div>
 <div class="wrapper">
 <div class="wrapper_inner">
-    <!-- Google Analytics start -->
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-60995442-8']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <!-- Google Analytics end -->
-
     <header class="page_header transparent light fixed">
         <div class="header_inner clearfix">
 
@@ -526,7 +493,10 @@ ga('send', 'pageview');
                                 <div class="mobile_menu_button"><span><i class="fa fa-bars"></i></span></div>
                                 <div class="logo_wrapper">
                                     <div class="q_logo">
-                                        <a href="http://diamondlotusphuckhang.com.vn/"><img class="normal" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" /><img class="light" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" /><img class="dark" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" /><img class="sticky" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" /></a>
+                                        <a href="http://diamondlotusphuckhang.com.vn/">
+                                            <img class="normal" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" />
+                                            <img class="light" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -542,20 +512,9 @@ ga('send', 'pageview');
                                     <li id="nav-menu-item-1358" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#vi-tri" class=""><i class="menu_icon fa blank"></i><span>Vị Trí</span><span class="plus"></span></a></li>
                                     <li id="nav-menu-item-1359" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#tien-ich" class=""><i class="menu_icon fa blank"></i><span>Tiện Ích</span><span class="plus"></span></a></li>
                                     <li id="nav-menu-item-1360" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#mat-bang" class=""><i class="menu_icon fa blank"></i><span>Sơ Đồ Mặt Bằng</span><span class="plus"></span></a></li>
-                                    <li id="nav-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><i class="menu_icon fa blank"></i><span>Dự án</span><span class="plus"></span></a>
-                                        <div class="second">
-                                            <div class="inner">
-                                                <ul>
-                                                    <li id="nav-menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-lakeview/" class=""><i class="menu_icon fa blank"></i><span>Diamond Lotus Lakeview</span><span class="plus"></span></a></li>
-                                                    <li id="nav-menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/long-chau-hoi-pho" class=""><i class="menu_icon fa blank"></i><span>Long Châu Hội Phố</span><span class="plus"></span></a></li>
-                                                    <li id="nav-menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/green-lotus-residence-du-an-nha-pho-quan-binh-tan" class=""><i class="menu_icon fa blank"></i><span>Green Lotus Resident Dự Án Nhà Phố Quận Tân Phú</span><span class="plus"></span></a></li>
-                                                    <li id="nav-menu-item-1215" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-financial-center-quan-2" class=""><i class="menu_icon fa blank"></i><span>Diamond Lotus Financial Center Quận 2</span><span class="plus"></span></a></li>
-                                                    <li id="nav-menu-item-1260" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-twin-tower-phuc-khang" class=""><i class="menu_icon fa blank"></i><span>Diamond Lotus Twin Tower Phúc Khang</span><span class="plus"></span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                    <li id="nav-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><i class="menu_icon fa blank"></i><span>Giá và PTTT</span><span class="plus"></span></a>
+
                                     </li>
-                                    <li id="nav-menu-item-5" class="menu-item menu-item-type-taxonomy menu-item-object-category  narrow"><a href="http://diamondlotusphuckhang.com.vn/tintuc" class=""><i class="menu_icon fa blank"></i><span>Tin tức</span><span class="plus"></span></a></li>
                                     <li id="nav-menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://diamondlotusphuckhang.com.vn/lien-he" class=""><i class="menu_icon fa blank"></i><span>Liên Hệ</span><span class="plus"></span></a></li>
                                 </ul>
                             </nav>
@@ -565,16 +524,8 @@ ga('send', 'pageview');
                                     <li id="mobile-menu-item-1358" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#vi-tri" class=""><span>Vị Trí</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
                                     <li id="mobile-menu-item-1359" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#tien-ich" class=""><span>Tiện Ích</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
                                     <li id="mobile-menu-item-1360" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#mat-bang" class=""><span>Sơ Đồ Mặt Bằng</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                    <li id="mobile-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Dự án</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-                                        <ul class="sub_menu">
-                                            <li id="mobile-menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-lakeview/" class=""><span>Diamond Lotus Lakeview</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                            <li id="mobile-menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/long-chau-hoi-pho" class=""><span>Long Châu Hội Phố</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                            <li id="mobile-menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/green-lotus-residence-du-an-nha-pho-quan-binh-tan" class=""><span>Green Lotus Resident Dự Án Nhà Phố Quận Tân Phú</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                            <li id="mobile-menu-item-1215" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-financial-center-quan-2" class=""><span>Diamond Lotus Financial Center Quận 2</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                            <li id="mobile-menu-item-1260" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/diamond-lotus-twin-tower-phuc-khang" class=""><span>Diamond Lotus Twin Tower Phúc Khang</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                        </ul>
+                                    <li id="mobile-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Giá và PTTT</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
                                     </li>
-                                    <li id="mobile-menu-item-5" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="http://diamondlotusphuckhang.com.vn/tintuc" class=""><span>Tin tức</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
                                     <li id="mobile-menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/lien-he" class=""><span>Liên Hệ</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
                                 </ul>
                             </nav>
