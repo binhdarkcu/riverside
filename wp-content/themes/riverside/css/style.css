@@ -101,11 +101,17 @@ color: #fff!important;}
 .text-center {
     text-align: center;
 }
+.text-black .page-branch-title .title1, .text-black span, .text-black p{
+	color: #333!important;
+}
+.text-black .page-branch-title.text-center{
+	background: url(../images/horizontal_divider-frikarte-black.png) no-repeat center bottom;
+}
 .page-branch-title .title1 {
     margin: 20px 0;
     padding-bottom: 20px;
     font-size: 2em;
-    color: #d8c664;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -117,7 +123,7 @@ color: #fff!important;}
 .ls-home-about .item .desc {
     font-size: 36px;
     font-weight: 700;
-    color: #d8c664;
+    color: #fff;
     border-bottom: 1px solid rgba(255,255,255,0.22);
     padding: 35px 0 20px;
     margin-bottom: 40px;
@@ -143,12 +149,16 @@ color: #fff!important;}
 }
 .q_tabs .tabs-nav li{
     padding: 5px 5px 0 5px!important;
-    background: #01291b!important;
+    background: #01291b;
+	color: #fff;
     margin-right: 10px;
     border-radius: 10px 10px 0 0;
     min-width: 130px;
     text-align: center;
     margin-right:10px!important;
+}
+.q_tabs .tabs-nav li a{
+	color: #fff!important;
 }
 .q_tabs .tabs-nav li a{padding:initial!important}
 .center .wpb_wrapper{text-align:center;}

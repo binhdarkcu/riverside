@@ -257,7 +257,7 @@
 		background-color: #c2b5ae !important;
 	}
 
-	
+
 
 
 
@@ -274,7 +274,7 @@
     body{
     	    	    	font-family: 'Roboto', sans-serif;
     	    	 color: #212121;     	 font-size: 14px;     	font-weight: 400;    }
-    
+
 .header_bottom,
 .header_top {
 	background-color: rgba(0,0,0,0.00);
@@ -306,14 +306,12 @@
 header.fixed.scrolled .header_bottom,
 header.fixed_hiding.scrolled .header_bottom,
 header.fixed.scrolled .header_top{
-	background-color: rgba(0,47,30,1) !important;
 }
 
 
 
 
 header.sticky .header_bottom{
-	background-color: rgba(8,245,0,1) !important;
 }
 
 
@@ -339,7 +337,7 @@ header.sticky .header_bottom{
             }
         }
 
-    
+
     .touch section.parallax_section_holder{
 		height: auto !important;
 		min-height: 300px;
@@ -604,7 +602,7 @@ font-family: "Playfair Display", sans-serif;font-size: 18px;letter-spacing: 0px;
 			border-color: #333;		}
 				.qbutton.white:before {
 			border-color: #ffffff;		}
-		
+
 
 
 
@@ -614,7 +612,7 @@ font-family: "Playfair Display", sans-serif;font-size: 18px;letter-spacing: 0px;
 	.q_counter_holder span.counter{
 		color: #2a343f; 		font-weight: 300; 		font-size: 85px; 		font-family: 'Oswald', sans-serif; 		}
 	.q_counter_holder p.counter_text{
-		color: #c2b5ae; 		font-weight: 400; 		text-transform: uppercase; 		letter-spacing: 3px; 		font-size: 14px; line-height: 1.25em; 		
+		color: #c2b5ae; 		font-weight: 400; 		text-transform: uppercase; 		letter-spacing: 3px; 		font-size: 14px; line-height: 1.25em;
 	}
 	.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
 		background-color: #075237;
@@ -642,7 +640,7 @@ footer #lang_sel_click ul ul a:visited,
 footer #lang_sel_list.lang_sel_list_horizontal a,
 footer #lang_sel_list.lang_sel_list_vertical a,
 #lang_sel_footer a{
-	
+
 	}
 
 	.footer_top h5 {
@@ -723,7 +721,7 @@ color: #fff;font-family: "Oswald";font-size: 14px;font-weight: 300;    }
 
     .projects_holder article .portfolio_description .project_category, .projects_holder.hover_text article .project_category, .portfolio_slider li.item .project_category {
     font-family: "Roboto";    }
-    
+
 	.contact_section .separator.small { display: none; }
 
 

@@ -1,4 +1,8 @@
-<div class="vc_row wpb_row section  vc_custom_1493353941018 grid_section" style=' text-align:center;'>
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+    $grey_bg = get_field('grey_background', 'option');
+?>
+<div class="vc_row wpb_row section  vc_custom_1493353941018 grid_section <?php if(!empty($grey_bg)) echo 'text-black'?>" style=' text-align:center;'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -23,7 +27,7 @@
         </div>
     </div>
 </div>
-<div class="vc_row wpb_row section " style=' text-align:left;'>
+<div class="vc_row wpb_row section <?php if(!empty($grey_bg)) echo 'text-black'?>" style=' text-align:left;'>
     <div class=" full_section_inner clearfix">
         <div class="wpb_column vc_column_container vc_col-sm-3">
             <div class="vc_column-inner ">

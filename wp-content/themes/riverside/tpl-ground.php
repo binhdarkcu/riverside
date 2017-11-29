@@ -1,4 +1,8 @@
-<div id="mat-bang" class="vc_row wpb_row section  denn grid_section" style=' text-align:center;'>
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+    $grey_bg = get_field('grey_background', 'option');
+?>
+<div id="mat-bang" class="vc_row wpb_row section  denn grid_section" style=' text-align:center; background-color: <?php echo $grey_bg;?>'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-12">

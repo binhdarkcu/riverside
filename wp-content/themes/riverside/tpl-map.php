@@ -1,3 +1,6 @@
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+?>
 <div class="vc_row wpb_row section  center vc_custom_1493351390193" style=' text-align:center;'>
     <div class=" full_section_inner clearfix">
         <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -6,7 +9,7 @@
                     <div class="wpb_tabstabs_holder clearfix" data-interval="0">
                         <div class="q_tabs horizontal center">
                             <ul class="tabs-nav">
-                                <li><a href="#tab-d6ecd725-bb74-5">BẢN ĐỒ</a></li>
+                                <li style="background: <?php echo $orange_bg;?>"><a href="#tab-d6ecd725-bb74-5">BẢN ĐỒ</a></li>
                             </ul>
                             <div class='tabs-container'>
 

@@ -1,4 +1,19 @@
-<div class="vc_row wpb_row section  denn grid_section" style=' text-align:left;'>
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+    $grey_bg = get_field('grey_background', 'option');
+?>
+<div class="vc_row wpb_row section  denn grid_section" style=' text-align:left; background-color: <?php echo $orange_bg;?>'>
+    <div class="vc_row wpb_row section grid_section" style=' text-align:left;'>
+        <div class=" section_inner clearfix">
+            <div class='section_inner_margin clearfix'>
+                <div class="center wpb_animate_when_almost_visible wpb_fadeInLeftBig fadeInLeftBig wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner vc_custom_1493353800052">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-6">

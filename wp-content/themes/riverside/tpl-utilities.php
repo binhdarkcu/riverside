@@ -1,4 +1,8 @@
-<div id="tien-ich" class="vc_row wpb_row section  denn vc_custom_1506735424563 grid_section pattern_background" style=' text-align:left;'>
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+    $grey_bg = get_field('grey_background', 'option');
+?>
+<div id="tien-ich" class="vc_row wpb_row section  denn vc_custom_1506735424563 grid_section pattern_background" style=' text-align:left;  background-color: <?php echo $orange_bg;?>'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-4">
@@ -6,7 +10,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element  vc_custom_1493356008064">
                             <div class="wpb_wrapper">
-                                <h2 style="text-align: center;"><span style="color: #d8c664;">TIỆN ÍCH CHUẨN 5 SAO</span></h2>
+                                <h2 style="text-align: center;"><span style="color: #fff;">TIỆN ÍCH CHUẨN 5 SAO</span></h2>
 
                             </div>
                         </div>
@@ -78,7 +82,7 @@
         </div>
     </div>
 </div>
-<div class="vc_row wpb_row section  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left;'>
+<div class="vc_row wpb_row section  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left; background-color: <?php echo $orange_bg;?>'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-8">
@@ -115,7 +119,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element  vc_custom_1493356523164">
                             <div class="wpb_wrapper">
-                                <h2 style="text-align: center;"><span style="color: #d8c664;">KHÔNG GIAN XANH TUYỆT HẢO</span></h2>
+                                <h2 style="text-align: center;"><span style="color: #fff;">KHÔNG GIAN XANH TUYỆT HẢO</span></h2>
 
                             </div>
                         </div>
@@ -131,7 +135,7 @@
         </div>
     </div>
 </div>
-<div class="vc_row wpb_row section  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left;'>
+<div class="vc_row wpb_row section  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left;background-color: <?php echo $orange_bg;?>'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-4">
@@ -139,7 +143,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element  vc_custom_1506583878929">
                             <div class="wpb_wrapper">
-                                <h2 style="text-align: center;"><span style="color: #d8c664;">ĐỘC ĐÁO VÀ ĐẲNG CẤP</span></h2>
+                                <h2 style="text-align: center;"><span style="color: #fff;">ĐỘC ĐÁO VÀ ĐẲNG CẤP</span></h2>
 
                             </div>
                         </div>

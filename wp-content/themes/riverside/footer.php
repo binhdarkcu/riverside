@@ -157,27 +157,28 @@ var qodeLike = {
 };
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/qode-like.js?ver=1.0'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/plugins.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/jquery.carouFredSel-6.2.1.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/lemmon-slider.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/jquery.mousewheel.min.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/jquery.touchSwipe.min.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.0.1'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/cache/busting/1/wp-content-themes-hazel-js-default_dynamic-59fd76dac0488810701884.js'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/default.min.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/cache/busting/1/wp-content-themes-hazel-js-custom_js-59fd76dac0488810701884.js'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/themes/hazel/js/SmoothScroll.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-includes/js/comment-reply.min.js?ver=4.7.7'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/js_composer/assets/lib/bower/jquery-ui-tabs-rotate/jquery-ui-tabs-rotate.min.js?ver=5.0.1'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.8.min.js?ver=1.6'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/easy-fancybox/js/jquery.easing.min.js?ver=1.4.0'></script>
-<script type='text/javascript' src='http://diamondlotusphuckhang.com.vn/wp-content/plugins/easy-fancybox/js/jquery.mousewheel.min.js?ver=3.1.13'></script>
+<script type='text/javascript' src='js/qode-like.js?ver=1.0'></script>
+<script type='text/javascript' src='js/plugins.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.2.1.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/lemmon-slider.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.min.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/jquery.touchSwipe.min.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/isotope.pkgd.min.js?ver=5.0.1'></script>
+<script type='text/javascript' src='js/wp-content-themes-hazel-js-default_dynamic-59fd76dac0488810701884.js'></script>
+<script type='text/javascript' src='js/default.min.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/wp-content-themes-hazel-js-custom_js-59fd76dac0488810701884.js'></script>
+<script type='text/javascript' src='js/SmoothScroll.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/comment-reply.min.js?ver=4.7.7'></script>
+<script type='text/javascript' src='js/js_composer_front.min.js?ver=5.0.1'></script>
+<script type='text/javascript' src='js/waypoints.min.js?ver=5.0.1'></script>
+<script type='text/javascript' src='js/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='js/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='js/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='js/jquery-ui-tabs-rotate.min.js?ver=5.0.1'></script>
+<script type='text/javascript' src='js/jquery.fancybox-1.3.8.min.js?ver=1.6'></script>
+<script type='text/javascript' src='js/jquery.easing.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.min.js?ver=3.1.13'></script>
+<script type='text/javascript' src='js/siteMain.js'></script>
 <script type="text/javascript">
 jQuery(document).on('ready post-load', function() {
 jQuery('.nofancybox,a.pin-it-button,a[href*="pinterest.com/pin/create/button"]').addClass('nolightbox');

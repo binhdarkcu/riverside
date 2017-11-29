@@ -112,6 +112,7 @@ img.emoji {
 <script type='text/javascript' src='js/greensock.js?ver=1.19.0'></script>
 <script type='text/javascript' src='js/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.4.1'></script>
+
 <script type='text/javascript'>
 /* <![CDATA[ */
 var LS_Meta = {
@@ -126,7 +127,7 @@ var LS_Meta = {
 <meta name="generator" content="WordPress 4.7.7" />
 
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://diamondlotusphuckhang.com.vn/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/vc_lte_ie9.min.css" media="screen"><![endif]-->
 <!-- Easy FancyBox 1.6 using FancyBox 1.3.8 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -171,290 +172,7 @@ var easy_fancybox_auto = function() {
     }
     /* ]]> */
 </script>
-<style type="text/css" data-type="vc_shortcodes-custom-css">
-.vc_custom_1494035881876 {
-    padding-top: 30px !important;
-}
-
-.vc_custom_1506735309109 {
-    margin-top: 0px !important;
-    padding-top: 30px !important;
-}
-
-.vc_custom_1493353285393 {
-    margin-top: 20px !important;
-}
-
-.vc_custom_1493351390193 {
-    margin-top: 15px !important;
-}
-
-.vc_custom_1493353941018 {
-    margin-top: 30px !important;
-}
-
-.vc_custom_1506735424563 {
-    padding-top: 50px !important;
-}
-
-.vc_custom_1493356125751 {
-    padding-top: 50px !important;
-}
-
-.vc_custom_1493356125751 {
-    padding-top: 50px !important;
-}
-
-.vc_custom_1507262675540 {
-    padding-bottom: 30px !important;
-}
-
-.vc_custom_1507260002745 {
-    padding-bottom: 30px !important;
-}
-
-.vc_custom_1498643559024 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1510560840240 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1510560926741 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1493346096943 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1495783821425 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493349248837 {
-    margin-bottom: 1px !important;
-}
-
-.vc_custom_1493353800052 {
-    padding-bottom: 30px !important;
-}
-
-.vc_custom_1493350387311 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493350521663 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493350407575 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493350509605 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493350402653 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493350516485 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493354459668 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493354609021 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493354466424 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493354616287 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493354471942 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493354622928 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493354478457 {
-    margin-bottom: 15px !important;
-}
-
-.vc_custom_1493354629823 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1493864590946 {
-    padding-bottom: 20px !important;
-}
-
-.vc_custom_1493356008064 {
-    margin-top: 40px !important;
-}
-
-.vc_custom_1493356356287 {
-    margin-top: 50px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1493864604459 {
-    padding-bottom: 20px !important;
-}
-
-.vc_custom_1493356523164 {
-    margin-top: 40px !important;
-}
-
-.vc_custom_1505721808258 {
-    margin-top: 50px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1493864590946 {
-    padding-bottom: 20px !important;
-}
-
-.vc_custom_1506583878929 {
-    margin-top: 40px !important;
-}
-
-.vc_custom_1506584001863 {
-    margin-top: 50px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1498816230148 {
-    padding-top: 30px !important;
-    padding-bottom: 10px !important;
-}
-
-.vc_custom_1506592103894 {
-    padding-bottom: 20px !important;
-}
-
-.vc_custom_1498722414057 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1498721631948 {
-    border-top-width: 7px !important;
-    border-right-width: 7px !important;
-    border-bottom-width: 7px !important;
-    border-left-width: 7px !important;
-    border-left-color: #075237 !important;
-    border-left-style: inset !important;
-    border-right-color: #075237 !important;
-    border-right-style: inset !important;
-    border-top-color: #075237 !important;
-    border-top-style: inset !important;
-    border-bottom-color: #075237 !important;
-    border-bottom-style: inset !important;
-}
-
-.vc_custom_1498721296057 {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-}
-
-.vc_custom_1498721656720 {
-    border-top-width: 7px !important;
-    border-right-width: 7px !important;
-    border-bottom-width: 7px !important;
-    border-left-width: 7px !important;
-    border-left-color: #075237 !important;
-    border-left-style: inset !important;
-    border-right-color: #075237 !important;
-    border-right-style: inset !important;
-    border-top-color: #075237 !important;
-    border-top-style: inset !important;
-    border-bottom-color: #075237 !important;
-    border-bottom-style: inset !important;
-}
-
-.vc_custom_1498721320575 {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-}
-
-.vc_custom_1506590714920 {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-}
-
-.vc_custom_1506590739271 {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-}
-
-.vc_custom_1506590773424 {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-}
-
-.vc_custom_1506589839749 {
-    padding-top: 30px !important;
-}
-
-.vc_custom_1506653558680 {
-    margin-top: 30px !important;
-}
-
-.vc_custom_1506596266718 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1498816243110 {
-    padding-top: 30px !important;
-}
-
-.vc_custom_1507260433177 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1507262689236 {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-}
-
-.vc_custom_1498816255393 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.vc_custom_1498727778100 {
-    margin-bottom: 20px !important;
-}
-
-.vc_custom_1498730307904 {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-}
-
-.vc_custom_1507195100307 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-</style>
+<link rel='stylesheet' id='fancybox-css' href='css/vcode.css' type='text/css' />
 <noscript>
 <style type="text/css">
     .wpb_animate_when_almost_visible {
@@ -482,7 +200,10 @@ var easy_fancybox_auto = function() {
 </div>
 <div class="wrapper">
 <div class="wrapper_inner">
-    <header class="page_header transparent light fixed">
+<?php
+    $header_bg = get_field('navigation_background', 'option');
+?>
+    <header class="page_header transparent light fixed" data-background="<?php echo $header_bg;?>">
         <div class="header_inner clearfix">
 
             <div class="header_top_bottom_holder">
@@ -493,9 +214,12 @@ var easy_fancybox_auto = function() {
                                 <div class="mobile_menu_button"><span><i class="fa fa-bars"></i></span></div>
                                 <div class="logo_wrapper">
                                     <div class="q_logo">
-                                        <a href="http://diamondlotusphuckhang.com.vn/">
-                                            <img class="normal" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" />
-                                            <img class="light" src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/10/dlrv_logo.svg" alt="Logo" />
+                                        <a href="<?php echo HOME_URL;?>">
+                                        <?php
+                                            $logo = get_field('logo_top', 'option');
+                                        ?>
+                                            <img class="normal" src="<?php echo $logo;?>" alt="Logo" />
+                                            <img class="light" src="<?php echo $logo;?>" alt="Logo" />
                                         </a>
                                     </div>
                                 </div>
@@ -507,16 +231,20 @@ var easy_fancybox_auto = function() {
                                 </div>
                             </div>
                             <nav class="main_menu drop_down right">
-                                <ul id="menu-main" class="">
-                                    <li id="nav-menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home  narrow"><a href="http://diamondlotusphuckhang.com.vn/" class=""><i class="menu_icon fa blank"></i><span>Trang chủ</span><span class="plus"></span></a></li>
-                                    <li id="nav-menu-item-1358" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#vi-tri" class=""><i class="menu_icon fa blank"></i><span>Vị Trí</span><span class="plus"></span></a></li>
-                                    <li id="nav-menu-item-1359" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#tien-ich" class=""><i class="menu_icon fa blank"></i><span>Tiện Ích</span><span class="plus"></span></a></li>
-                                    <li id="nav-menu-item-1360" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="/#mat-bang" class=""><i class="menu_icon fa blank"></i><span>Sơ Đồ Mặt Bằng</span><span class="plus"></span></a></li>
-                                    <li id="nav-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="#" class=""><i class="menu_icon fa blank"></i><span>Giá và PTTT</span><span class="plus"></span></a>
-
-                                    </li>
-                                    <li id="nav-menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://diamondlotusphuckhang.com.vn/lien-he" class=""><i class="menu_icon fa blank"></i><span>Liên Hệ</span><span class="plus"></span></a></li>
-                                </ul>
+                                <?php
+                                    if ( has_nav_menu( 'primary_menus' ) ) {
+                                            wp_nav_menu(
+                                                array(
+                                                    'theme_location' => 'primary_menus',
+                                                    'menu_class'     => '',
+                                                    'menu_id'        => 'menu-main',
+                                                    'container'      => false,
+                                                    'fallback_cb'    => NULL
+                                                )
+                                            );
+                                        }
+                                ?>
+                                
                             </nav>
                             <nav class="mobile_menu">
                                 <ul id="menu-main-1" class="">
