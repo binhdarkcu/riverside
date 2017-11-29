@@ -116,36 +116,26 @@ color: #fff!important;}
     font-weight: 700;
 }
 .radius img{border-radius:18px}
-.ls-home-about .item .title2 {
+.ls-home-about .item .title2, .ls-home-about .item .title2 p {
     font-size: 15px;
     font-weight: 600;
 }
-.ls-home-about .item .desc {
+
+.ls-home-about .item .desc  {
     font-size: 36px;
     font-weight: 700;
     color: #fff;
     border-bottom: 1px solid rgba(255,255,255,0.22);
     padding: 35px 0 20px;
     margin-bottom: 40px;
-    background: url(../images/cityscape.png) no-repeat bottom 17px right;
+}
+.ls-home-about .item .desc p {
+	font-size: 36px;
+    font-weight: 700;
+    color: #fff;
 }
 .ls-home-about .item .desc span {
     font-size: 18px;
-}
-.ls-home-about .item.item2 .desc {
-    background-image: url(../images/office-block.png);
-}
-.ls-home-about .item.item3 .desc {
-    background-image: url(../images/drawing.png);
-}
-.ls-home-about .item.item4 .desc {
-    background-image: url(../images/drawing-house-plan.png);
-}
-.ls-home-about .item.item5 .desc {
-    background-image: url(../images/house.png);
-}
-.ls-home-about .item.item6 .desc {
-    background-image: url(../images/building.png);
 }
 .q_tabs .tabs-nav li{
     padding: 5px 5px 0 5px!important;
