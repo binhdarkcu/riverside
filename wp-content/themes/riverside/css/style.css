@@ -62,11 +62,14 @@ h2.site-description {
     background-color: #fff;
     border-bottom: 1px solid #002f1e;
 }
+
 .wapdownload ul li {
-    list-style: none;
     background-repeat: no-repeat;
-    padding-left: 20px;
+    padding-left: 0;
     background-position: 0px 9px;
+}
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-date, textarea.wpcf7-form-control.wpcf7-textarea, select.wpcf7-form-control.wpcf7-select, input.wpcf7-form-control.wpcf7-quiz{
+	margin: 0 0 10px;
 }
 .btn-download {
     cursor: pointer;

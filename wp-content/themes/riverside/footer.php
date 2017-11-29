@@ -1,6 +1,16 @@
-<footer class="footer_border_columns">
+<?php
+    $orange_bg = get_field('navigation_background', 'option');
+    $grey_bg = get_field('grey_background', 'option');
+    $footer_logo = get_field('footer_logo', 'option');
+?>
+<style>
+    .orange-text a{
+        color: #fff!important;
+    }
+</style>
+<footer class="footer_border_columns <?php if(!empty($orange_bg)) echo 'orange-text'; ?>">
     <div class="footer_inner clearfix">
-        <div class="footer_top_holder">
+        <div class="footer_top_holder" style="background-color: <?php echo $orange_bg;?>">
             <div class="footer_top">
                 <div class="container">
                     <div class="container_inner">
@@ -9,7 +19,7 @@
                                 <div class="column_inner">
                                     <div id="text-2" class="widget widget_text">
                                         <div class="textwidget">
-                                            <div style=" text-align:center"><img src="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/11/logo_mini-min-1.png" alt="logo" /></div>
+                                            <div style=" text-align:center"><img src="<?php echo $footer_logo;?>" alt="logo" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -107,18 +117,16 @@
 <div class="modal-dialog modal-sm">
 <div class="modal-content">
     <div class="modal-body modal_qc">
+        <?php
+            $register_title = get_field('register_title', 'option');
+            $register_subtitle = get_field('register_subtitle', 'option');
+            $register_content = get_field('register_content', 'option');
+        ?>
         <div class="wapdownload animated bounceInLeft delay-250 go">
-            <h4>ĐĂNG KÝ NGAY</h4>
-            <h6>NHẬN BỘ TÀI LIỆU</h6>
+            <h4><?php echo $register_title;?></h4>
+            <h6><?php echo $register_subtitle;?></h6>
             <div class="borderwapdown"></div>
-            <ul style="margin-left:0px">
-                <li>Thông tin đầy đủ dự án</li>
-                <li>Sơ đồ mặt bằng tầng</li>
-                <li>Bảng giá chi tiết từng căn</li>
-                <li>Tiến độ thanh toán</li>
-                <li>Thư mời tham quan miễn phí</li>
-                <li>Chương trình ưu đãi tháng 11-2017</li>
-            </ul>
+            <?php echo $register_content;?>
 
             <div id="taive" class="btn-download md-trigger" data-modal="myModal">Đăng ký </div>
         </div>
@@ -137,7 +145,7 @@ var qodeLike = {
 };
 /* ]]> */
 
-if(jQuery('form.wpcf7-form').hasClass('invalid')) {
+if(jQuery('#myModal form.wpcf7-form').hasClass('invalid')) {
     jQuery('#myModal').modal('show');
 }
 
@@ -164,6 +172,19 @@ if(jQuery('form.wpcf7-form').hasClass('invalid')) {
 <script type='text/javascript' src='js/jquery.easing.min.js?ver=1.4.0'></script>
 <script type='text/javascript' src='js/jquery.mousewheel.min.js?ver=3.1.13'></script>
 <script type='text/javascript' src='js/siteMain.js'></script>
+<script>
+    jQuery.noConflict();
+
+    jQuery(window).load(function() {
+        jQuery('a.fancybox1').fancybox({
+            padding: 0,
+            openEffect: 'elastic',
+            width: '100%',
+            height: '100%',
+            type: "iframe"
+        });
+    });
+</script>
 <script type="text/javascript">
 jQuery(document).on('ready post-load', function() {
 jQuery('.nofancybox,a.pin-it-button,a[href*="pinterest.com/pin/create/button"]').addClass('nolightbox');
