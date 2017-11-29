@@ -97,7 +97,6 @@ img.emoji {
 </style>
 <link rel='stylesheet' id='layerslider-css' href='css/layerslider.css?ver=6.0.6' type='text/css' media='all' />
 
-<link rel='stylesheet' id='contact-form-7-css' href='css/styles.css?ver=4.9.1' type='text/css' media='all' />
 <link rel='stylesheet' id='default_style-css' href='css/style.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='stylesheet-css' href='css/stylesheet.min.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='style_dynamic-css' href='css/wp-content-themes-hazel-css-style_dynamic-59fd76dac047c763936041.css' type='text/css' media='all' />
@@ -244,7 +243,7 @@ var easy_fancybox_auto = function() {
                                             );
                                         }
                                 ?>
-                                
+
                             </nav>
                             <nav class="mobile_menu">
                                 <ul id="menu-main-1" class="">

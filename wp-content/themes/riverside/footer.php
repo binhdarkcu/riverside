@@ -95,26 +95,7 @@
     </div>
 
     <div class="modal-body">
-        <div role="form" class="wpcf7" id="wpcf7-f58-o3" lang="en-US" dir="ltr">
-            <div class="screen-reader-response"></div>
-            <form action="/?gclid=EAIaIQobChMIn4u0kpDe1wIVDg4rCh2t7QZVEAAYASAAEgI_sPD_BwE#wpcf7-f58-o3" method="post" class="wpcf7-form" novalidate="novalidate">
-                <div style="display: none;">
-                    <input type="hidden" name="_wpcf7" value="58" />
-                    <input type="hidden" name="_wpcf7_version" value="4.9.1" />
-                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f58-o3" />
-                    <input type="hidden" name="_wpcf7_container_post" value="0" />
-                </div>
-                <p><span class="wpcf7-form-control-wrap du-an"><input type="text" name="du-an" value="" size="40" class="wpcf7-form-control wpcf7-text hide" id="du-an" aria-invalid="false" /></span></p>
-                <p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tên Bạn" /></span></p>
-                <p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" /></span></p>
-                <p><span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Số điện thoại" /></span></p>
-                <p>
-                    <input type="submit" value="GỬI TÔI NGAY" class="wpcf7-form-control wpcf7-submit nutdk" />
-                </p>
-                <div class="wpcf7-response-output wpcf7-display-none"></div>
-            </form>
-        </div>
+        <?php echo do_shortcode( '[contact-form-7 id="63" title="Thông Tin Đăng Ký"]' ); ?>
     </div>
 
 </div>
@@ -149,13 +130,17 @@
 
 <link rel='stylesheet' id='animate-css-css' href='css/animate.min.css?ver=5.0.1' type='text/css' media='' />
 
-<script type='text/javascript' src='js/scripts.js?ver=4.9.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var qodeLike = {
-"ajaxurl": "http:\/\/diamondlotusphuckhang.com.vn\/wp-admin\/admin-ajax.php"
+"ajaxurl": "<?php echo admin_url('admin-ajax.php'); ?>"
 };
 /* ]]> */
+
+if(jQuery('form.wpcf7-form').hasClass('invalid')) {
+    jQuery('#myModal').modal('show');
+}
+
 </script>
 <script type='text/javascript' src='js/qode-like.js?ver=1.0'></script>
 <script type='text/javascript' src='js/plugins.js?ver=4.7.7'></script>
