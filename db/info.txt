@@ -1,0 +1,9 @@
+http://45.117.81.91:2222
+user: quynh
+pass: QT1234%17
+
+FTP account:
+Host: 45.117.81.91
+user: quynh
+pass: QT1234%17
+http://dreamhomeriverside.ena.vn/
