@@ -56,7 +56,7 @@
     $pttTitle = $getpostPttt->post_title;
     $pttContent = $getpostPttt->post_content;
 ?>
-<div class="vc_row wpb_row section  denn grid_section <?php if(!empty($grey_bg)) echo 'text-black'?>" style=' text-align:left; background-color: <?php echo $grey_bg;?>'>
+<div id="gia-va-pttt" class="vc_row wpb_row section  denn grid_section <?php if(!empty($grey_bg)) echo 'text-black'?>" style=' text-align:left; background-color: <?php echo $grey_bg;?>'>
     <div class=" section_inner clearfix">
         <div class='section_inner_margin clearfix'>
             <div class="wpb_column vc_column_container vc_col-sm-12">

@@ -30,12 +30,24 @@
                                         <h5>Liên Kết Nội Bộ</h5>
                                         <div class="menu-foot_menu-container">
                                             <ul id="menu-foot_menu" class="menu">
-                                                <li id="menu-item-310" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-310"><a href="http://diamondlotusphuckhang.com.vn/">Căn Hộ Cao Cấp Quận Tân Phú</a></li>
-                                                <li id="menu-item-311" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-311"><a href="http://diamondlotusphuckhang.com.vn/">Căn hộ xanh diamond lotus lakeview</a></li>
-                                                <li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312"><a href="http://diamondlotusphuckhang.com.vn/vi-tri/">Vị trí căn hộ diamond lotus lakeview</a></li>
-                                                <li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="http://diamondlotusphuckhang.com.vn/tien-ich-xanh/">Tiện ích căn hộ diamond lotus lakeview</a></li>
-                                                <li id="menu-item-314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-314"><a href="http://diamondlotusphuckhang.com.vn/so-do-can-ho/">Sơ đồ căn hộ diamond lotus lakeview</a></li>
-                                                <li id="menu-item-1292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1292"><a href="http://diamondlotusgreenworldphuckhang.com/">Diamond Lotus Green World</a></li>
+                                                <?php
+                                                $i=0;
+                                                if( have_rows('footer_links', 'option') ): ?>
+
+                                                    <?php while( have_rows('footer_links', 'option') ): the_row();
+                                                        $i++;
+                                                        // vars
+                                                        $link_title = get_sub_field('link_title', 'option');
+                                                        $link_address = get_sub_field('link_address', 'option');
+                                                        ?>
+
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-310"><a href="<?php echo $link_address;?>"><?php echo $link_title;?></a></li>
+
+                                                    <?php endwhile; ?>
+
+                                                <?php endif; ?>
+
+
                                             </ul>
                                         </div>
                                     </div>
@@ -44,18 +56,9 @@
                             <div class="qode_column column3">
                                 <div class="column_inner">
                                     <div id="text-4" class="widget widget_text">
-                                        <h5>Một sản phẩm của Phúc Khang Corporation</h5>
+                                        <h5><?php echo get_field('footer_contact_title', 'option');?></h5>
                                         <div class="textwidget">
-                                            <ul class="footer-social">
-                                                <li><a href=""><i class="fa fa-check"></i> Hotline: (+84) 94 678 2888 (Zalo, Viber)</a></li>
-                                                <li><a href=""><i class="fa fa-check"></i> Trụ sở chính: 51 Ngô Thời Nhiệm, P6, Q3</a></li>
-                                                <li><a href=""><i class="fa fa-check"></i> Văn phòng: 22 Nguyễn Bĩnh Khiêm, Quận 1</a></li>
-                                                <li><a href=""><i class="fa fa-check"></i> Email: pkms@phuckhang.vn</a></li>
-                                            </ul>
-
-                                            <a href="//www.dmca.com/Protection/Status.aspx?ID=36f9e9e3-0758-4052-ad4b-211af8208c6a" title="DMCA.com Protection Status" class="dmca-badge"> <img src="images/dmca_protected_sml_120l.png?ID=36f9e9e3-0758-4052-ad4b-211af8208c6a" alt="DMCA.com Protection Status"></a>
-                                            <script src="js/DMCABadgeHelper.min.js">
-                                            </script>
+                                            <?php echo get_field('footer_contact_content', 'option');?>
 
                                             <!--Start of Tawk.to Script-->
                                             <script type="text/javascript">
@@ -83,7 +86,7 @@
         </div>
         <div class="footer_bottom_holder">
             <div class="footer_bottom">
-                <div class="textwidget"><span style="display: block; line-height:14px;color:#ffffff">&copy; Copyright 2017 . <a href="http://phuckhangms.com/">Phúc Khang MS</a>. <a href="http://phongphan.net/">Seo marketing</a> by <a href="http://phongphan.net/">phongphan.net</a> </span></div>
+                <div class="textwidget"><span style="display: block; line-height:14px;color:#ffffff"><?php echo get_field('copyright', 'option')?></a> </span></div>
             </div>
         </div>
     </div>

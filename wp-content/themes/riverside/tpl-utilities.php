@@ -17,7 +17,7 @@ if( have_rows('adv_bottom', $pageId) ): ?>
         $advbot_desc = get_sub_field('advbot_desc', $pageId);
         if($i%2!=0){
         ?>
-        <div id="<?php if($i==0) echo 'tien-ich';?>" class="vc_row wpb_row section  denn vc_custom_1506735424563 grid_section pattern_background" style=' text-align:left;  background-color: <?php echo $orange_bg;?>'>
+        <div class="vc_row wpb_row   denn vc_custom_1506735424563 grid_section pattern_background" style=' text-align:left;  background-color: <?php echo $orange_bg;?>'>
             <div class=" section_inner clearfix">
                 <div class='section_inner_margin clearfix'>
                     <div class="wpb_column vc_column_container vc_col-sm-4">
@@ -67,7 +67,7 @@ if( have_rows('adv_bottom', $pageId) ): ?>
             </div>
         </div>
     <?php } else {?>
-        <div class="vc_row wpb_row section  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left; background-color: <?php echo $orange_bg;?>'>
+        <div class="vc_row wpb_row  denn vc_custom_1493356125751 grid_section pattern_background" style=' text-align:left; background-color: <?php echo $orange_bg;?>'>
             <div class=" section_inner clearfix">
                 <div class='section_inner_margin clearfix'>
                     <div class="wpb_column vc_column_container vc_col-sm-8">

@@ -6,7 +6,12 @@ var siteMain = (function() {
 	function init(){
         checkScrolledHeader();
 		initEvent();
+		createScrollNav();
 	}
+	var sections = jQuery('.section')
+  	, nav = jQuery('.main_menu')
+  	, nav_height = nav.height();
+
 
     function checkScrolledHeader(){
         if(jQuery('header.page_header').hasClass('scrolled') || jQuery(window).width() <= 992){
@@ -22,6 +27,42 @@ var siteMain = (function() {
         });
 	}
 
+	function createScrollNav(){
+		jQuery(".scroll-nav li a").click(function(e) {
+
+		 jQuery('.scroll-nav li a').removeClass('active');
+		  var navHeight = jQuery("header").height();
+		  var el = jQuery(this).attr("href");
+		  if(el.indexOf('#') >= 0) {
+			  jQuery(this).addClass('active');
+			  e.preventDefault();
+			  jQuery('html, body').animate({
+  		        scrollTop: jQuery(el).offset().top-navHeight
+  		    }, 1000);
+  			return false
+		  }else{
+			  window.href = el
+		  }
+
+		});
+
+		jQuery(window).on('scroll', function () {
+		  var cur_pos = jQuery(this).scrollTop();
+
+		  sections.each(function() {
+		    var top = jQuery(this).offset().top - nav_height,
+		        bottom = top + jQuery(this).outerHeight();
+
+		    if (cur_pos >= top && cur_pos <= bottom) {
+		      nav.find('a').removeClass('active');
+		      sections.removeClass('active');
+
+		      jQuery(this).addClass('active');
+		      nav.find('a[href="#'+jQuery(this).attr('id')+'"]').addClass('active');
+		    }
+		  });
+		});
+	}
 
 
 

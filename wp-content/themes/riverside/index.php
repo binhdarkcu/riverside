@@ -26,7 +26,7 @@
                             <?php get_template_part('tpl','good-position')?>
                             <?php get_template_part('tpl','map')?>
                             <?php get_template_part('tpl','advantages')?>
-                            <?php get_template_part('tpl','utilities')?>
+                            
                             <?php get_template_part('tpl','ground')?>
                             <?php get_template_part('tpl','buy-house')?>
                             <?php get_template_part('tpl','register-house')?>

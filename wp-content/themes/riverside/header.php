@@ -23,20 +23,6 @@
 <![endif]-->
 
 <!-- This site is optimized with the Yoast SEO plugin v5.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Căn hộ Diamond Lotus Riverside tại 49C Lê Quang Kim - Quận 8 của chủ đầu tư Phúc Khang , theo tiêu chuẩn LEED . Ngân hàng hỗ trợ trả góp 80% trong 20 năm." />
-<link rel="canonical" href="http://diamondlotusphuckhang.com.vn/" />
-<meta property="og:locale" content="vi_VN" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Căn Hộ Diamond Lotus Riverside Phúc Khang Chỉ 1,9Tỷ - 0946782888" />
-<meta property="og:description" content="Căn hộ Diamond Lotus Riverside tại 49C Lê Quang Kim - Quận 8 của chủ đầu tư Phúc Khang , theo tiêu chuẩn LEED . Ngân hàng hỗ trợ trả góp 80% trong 20 năm." />
-<meta property="og:url" content="http://diamondlotusphuckhang.com.vn/" />
-<meta property="og:site_name" content="Diamond Lotus Phúc Khang" />
-<meta property="og:image" content="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/04/LEED-Gold.png" />
-<meta property="og:image" content="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/04/pttt.jpg" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Căn hộ Diamond Lotus Riverside tại 49C Lê Quang Kim - Quận 8 của chủ đầu tư Phúc Khang , theo tiêu chuẩn LEED . Ngân hàng hỗ trợ trả góp 80% trong 20 năm." />
-<meta name="twitter:title" content="Căn Hộ Diamond Lotus Riverside Phúc Khang Chỉ 1,9Tỷ - 0946782888" />
-<meta name="twitter:image" content="http://diamondlotusphuckhang.com.vn/wp-content/uploads/2017/04/LEED-Gold.png" />
 
 <!-- / Yoast SEO plugin. -->
 <script type="text/javascript">
@@ -235,7 +221,7 @@ var easy_fancybox_auto = function() {
                                             wp_nav_menu(
                                                 array(
                                                     'theme_location' => 'primary_menus',
-                                                    'menu_class'     => '',
+                                                    'menu_class'     => 'scroll-nav',
                                                     'menu_id'        => 'menu-main',
                                                     'container'      => false,
                                                     'fallback_cb'    => NULL
@@ -246,15 +232,20 @@ var easy_fancybox_auto = function() {
 
                             </nav>
                             <nav class="mobile_menu">
-                                <ul id="menu-main-1" class="">
-                                    <li id="mobile-menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home "><a href="http://diamondlotusphuckhang.com.vn/" class=""><span>Trang chủ</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                    <li id="mobile-menu-item-1358" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#vi-tri" class=""><span>Vị Trí</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                    <li id="mobile-menu-item-1359" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#tien-ich" class=""><span>Tiện Ích</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                    <li id="mobile-menu-item-1360" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="/#mat-bang" class=""><span>Sơ Đồ Mặt Bằng</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                    <li id="mobile-menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="#" class=""><span>Giá và PTTT</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-                                    </li>
-                                    <li id="mobile-menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://diamondlotusphuckhang.com.vn/lien-he" class=""><span>Liên Hệ</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-                                </ul>
+                                
+                                <?php
+                                    if ( has_nav_menu( 'primary_menus' ) ) {
+                                            wp_nav_menu(
+                                                array(
+                                                    'theme_location' => 'primary_menus',
+                                                    'menu_class'     => 'scroll-nav',
+                                                    'menu_id'        => 'menu-main-1',
+                                                    'container'      => false,
+                                                    'fallback_cb'    => NULL
+                                                )
+                                            );
+                                        }
+                                ?>
                             </nav>
                         </div>
                     </div>

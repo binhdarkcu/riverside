@@ -17,6 +17,9 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 .modal-content{
 	top: 100px;
 }
+nav.main_menu > ul > li > a:hover, nav.main_menu > ul > li > a.active {
+	color: #FFDF01!important;
+}
 .modal-body input {
     margin-bottom: 10px;
     width: 100%;
@@ -96,7 +99,7 @@ input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, inpu
 }
 .footer_top .widget_nav_menu ul li{padding: 0 0 5px!important;}
 .footer_top h5{font-family: inherit!important;}
-#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea{    background-color: #38C72F!important;
+#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea{    
 color: #fff!important;}
 .page-branch-title.text-center {
     background: url(../images/horizontal_divider-frikarte.png) no-repeat center bottom;
