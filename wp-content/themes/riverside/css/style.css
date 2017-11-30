@@ -42,7 +42,7 @@ h2.site-description {
 .padding-30{padding-bottom:30px}
 /* Modal qc */
 .modal_qc {
-    background: #f1c40f!important;
+    background-color: rgb(221, 153, 52)!important;
 }
 .wapdownload h4 {
     font-weight: bold;
@@ -65,7 +65,16 @@ h2.site-description {
     background-color: #fff;
     border-bottom: 1px solid #002f1e;
 }
-
+#back_to_top>span {
+	border-color: #db1616!important;
+}
+.view-house .vc_column-inner  input[type="submit"] {
+	background: #dd9934!important;
+	color: #fff!important;
+}
+#back_to_top span span {
+	color:  #db1616!important;
+}
 .wapdownload ul li {
     background-repeat: no-repeat;
     padding-left: 0;
@@ -99,7 +108,7 @@ input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-number, inpu
 }
 .footer_top .widget_nav_menu ul li{padding: 0 0 5px!important;}
 .footer_top h5{font-family: inherit!important;}
-#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea{    
+#respond textarea, #respond input[type='text'], .contact_form input[type='text'], .contact_form textarea{
 color: #fff!important;}
 .page-branch-title.text-center {
     background: url(../images/horizontal_divider-frikarte.png) no-repeat center bottom;
