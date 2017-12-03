@@ -8,11 +8,11 @@
 <meta charset="UTF-8" />
 <meta name="google-site-verification" content="" />
 <meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no">
-<title>Căn Hộ Diamond Lotus Riverside Phúc Khang Chỉ 1,9Tỷ - 0946782888</title>
+<title><?php echo get_bloginfo('name')?></title>
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<meta name="description" content="<?php echo get_bloginfo('description')?>">
 
-<meta name="description" content="Dự án căn hộ cao cấp quận 8 Diamond Lotus Riverside đã bàn giao nhà Block A và B. Nhận ngay báo giá mới nhất Block C. Đừng bỏ qua cơ hội tốt này.">
-
-<meta name="keywords" content="Diamond Lotus Riverside, Diamond Lotus, can ho xanh, tieu chuan My, LEED, căn hộ quận 8, can ho Q8">
+<meta name="keywords" content="">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!--[if gte IE 9]>
 <style type="text/css">
@@ -83,12 +83,13 @@ img.emoji {
 </style>
 <link rel='stylesheet' id='layerslider-css' href='css/layerslider.css?ver=6.0.6' type='text/css' media='all' />
 
-<link rel='stylesheet' id='default_style-css' href='css/style.css?ver=4.7.7' type='text/css' media='all' />
+
 <link rel='stylesheet' id='stylesheet-css' href='css/stylesheet.min.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='style_dynamic-css' href='css/wp-content-themes-hazel-css-style_dynamic-59fd76dac047c763936041.css' type='text/css' media='all' />
 <link rel='stylesheet' id='qode-font-awesome-css' href='css/font-awesome.min.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='elegant-icons-css' href='css/style.min.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='responsive-css' href='css/responsive.min.css?ver=4.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='default_style-css' href='css/style.css?ver=4.7.7' type='text/css' media='all' />
 <link rel='stylesheet' id='style_dynamic_responsive-css' href='css/wp-content-themes-hazel-css-style_dynamic_responsive-59fd76dac047c763936041.css' type='text/css' media='all' />
 <link rel='stylesheet' id='js_composer_front-css' href='css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='custom_css-css' href='css/wp-content-themes-hazel-css-custom_css-59fd76dac047c763936041.css' type='text/css' media='all' />
@@ -156,6 +157,8 @@ var easy_fancybox_auto = function() {
         }, 1000);
     }
     /* ]]> */
+
+    var HOME_URL = "<?php echo HOME_URL;?>"
 </script>
 <link rel='stylesheet' id='fancybox-css' href='css/vcode.css' type='text/css' />
 <noscript>
@@ -232,7 +235,7 @@ var easy_fancybox_auto = function() {
 
                             </nav>
                             <nav class="mobile_menu">
-                                
+
                                 <?php
                                     if ( has_nav_menu( 'primary_menus' ) ) {
                                             wp_nav_menu(

@@ -38,9 +38,7 @@
                         <div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-center">
                             <div class="wpb_wrapper">
 
-                                <div class="wpb_video_wrapper">
-                                    <iframe width="1060" height="596" src="https://www.youtube.com/embed/<?php echo $design_progress['vid'];?>?feature=oembed&wmode=opaque" frameborder="0" gesture="media" allowfullscreen></iframe>
-                                </div>
+                                <?php echo $design_progress;?>
                             </div>
                         </div>
                     </div>

@@ -143,14 +143,15 @@ color: #fff!important;}
     border-bottom: 1px solid rgba(255,255,255,0.22);
     padding: 35px 0 20px;
     margin-bottom: 40px;
+	padding-right: 55px;
 }
 .ls-home-about .item .desc p {
-	font-size: 36px;
+	font-size: 15px;
     font-weight: 700;
     color: #fff;
 }
 .ls-home-about .item .desc span {
-    font-size: 18px;
+    font-size: 14px;
 }
 .q_tabs .tabs-nav li{
     padding: 5px 5px 0 5px!important;
@@ -187,3 +188,14 @@ color: #fff!important;}
 .title.breadcrumbs_title .breadcrumb{display: none!important;}
 .blog_holder article .post_more{margin: 0!important;}
 .qbutton.small{padding: 0 10px!important;}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.boxed .section .section_inner, .grid_section .section_inner{
+		width: 89%!important;
+	}
+}
+@media only screen and (min-width: 0) and (max-width: 767px) {
+	.boxed .section .section_inner, .grid_section .section_inner{
+		width: 80%!important;
+	}
+}
